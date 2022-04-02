@@ -1,4 +1,4 @@
-# CalculatorTransformerKotlin
+# Calculator Transformer
 
 used library EvalEx 
 
