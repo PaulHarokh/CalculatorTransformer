@@ -20,20 +20,25 @@
             android:orientation="vertical">
 
             <EditText
-                android:focusable="false"
                 android:id="@+id/idInputView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="100"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="5"
+                android:focusable="false"
                 android:textColor="#FFFFFF"
-                android:visibility="visible" />
+                android:visibility="visible"
+                tools:ignore="NestedWeights" />
 
             <TextView
                 android:id="@+id/idResultView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="0"
+                android:layout_weight="1"
                 android:textAlignment="textEnd"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="#FFFFFF"
                 android:visibility="visible" />

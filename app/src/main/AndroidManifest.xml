@@ -3,14 +3,15 @@
     package="by.paulharokh.calculatortransformerkotlin">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@drawable/calculate"
         android:label="Calculator-transformer"
         android:roundIcon="@drawable/calculate"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
