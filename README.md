@@ -1,6 +1,6 @@
 # Calculator Transformer
 
-used library EvalEx 
+used EvalEx library
 
 EvalEx is a handy expression evaluator for Java, that allows to evaluate simple mathematical and boolean expressions.
 https://github.com/uklimaschewski/EvalEx
